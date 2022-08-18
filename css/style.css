@@ -1,0 +1,78 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5;
+}
+
+section {
+  padding: 40px;
+  float: left;
+}
+
+.casas ul {
+  list-style-type: none;
+  font-size: 1.4;
+  display: block;
+  height: 200px;
+  padding: 1rem;
+  width: 100%;
+  float: left;
+  padding-left: 10px;
+}
+.casas li {
+  display: block;
+  float: left;
+}
+.casas div {
+  padding-right: 90px;
+  width: 33%;
+}
+.casas img {
+  width: auto;
+  height: 200px;
+}
+.casas a {
+  background-color: #999;
+  color: #dedede;
+}
+
+.container {
+  background-color: rgb(26, 26, 61);
+  padding: 40px;
+}
+.container img {
+  width: 100%;
+  height: 400px;
+}
+.container p {
+  font-size: 1.2rem;
+  color: #f00;
+}
+.container h4 {
+  font-size: font-medium;
+  color: #f00;
+}
+
+footer {
+  background-color: #444;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 100px;
+}
+
+.head {
+  background-color: #444;
+  width: auto;
+  height: 100px;
+  padding-left: 40px;
+}
+.head h1 {
+  font-family: arial, helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

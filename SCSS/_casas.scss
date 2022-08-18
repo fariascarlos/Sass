@@ -1,0 +1,40 @@
+.casas  {
+    ul {
+
+
+        list-style-type: none;
+        font-size: 1.4;
+        display: block;
+        height: 200px;
+        padding: 1rem;
+        width: 100%;
+        float: left;
+        padding-left: 10px;
+
+    }
+
+    li{
+        display: block;
+        float: left;
+
+    }
+
+    div{
+        padding-right: 90px;
+        width: 33%;
+    }
+
+
+    img{
+        width: auto;
+        height: 200px;
+    }
+
+    a{
+        background-color: $color-02;
+        color: $bg-color;
+    }
+   
+
+
+}
