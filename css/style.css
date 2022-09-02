@@ -23,6 +23,8 @@ section {
   float: left;
   padding-left: 10px;
 }
+
+
 .casas li {
   display: block;
   float: left;
@@ -31,13 +33,15 @@ section {
   padding-right: 90px;
   width: 33%;
 }
-.casas img {
-  width: auto;
-  height: 200px;
-}
-.casas a {
+
+a {
   background-color: #999;
   color: #dedede;
+}
+
+img {
+  width: auto;
+  height: 200px;
 }
 
 .container {
@@ -50,11 +54,12 @@ section {
 }
 .container p {
   font-size: 1.2rem;
-  color: #f00;
+  color: #595;
 }
-.container h4 {
+
+h4 {
   font-size: font-medium;
-  color: #f00;
+  color: #595;
 }
 
 footer {

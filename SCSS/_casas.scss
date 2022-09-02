@@ -1,4 +1,21 @@
+@mixin theme($theme:$color-01,$bg: $color-04) {
+    border: 2px solid $theme;
+    background-color: &$bg;
+    
+}
+
+
 .casas  {
+
+    /*
+
+    .casas__list
+    .casas__item
+    .casas__botton
+    .casas__img
+    
+    
+    */
     ul {
 
 
@@ -13,6 +30,10 @@
 
     }
 
+    .destaks{
+        @include theme;
+    }
+
     li{
         display: block;
         float: left;
@@ -24,17 +45,22 @@
         width: 33%;
     }
 
-
-    img{
-        width: auto;
-        height: 200px;
-    }
-
-    a{
-        background-color: $color-02;
-        color: $bg-color;
-    }
-   
-
-
 }
+
+a{
+    background-color: $color-02;
+    color: $bg-color;
+}
+
+img{
+    width: auto;
+    height: 200px;
+}
+
+&__description{
+    color: $color-04;
+    font-size: $font-small;
+    float: left;
+}
+
+
